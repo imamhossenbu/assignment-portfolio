@@ -1,0 +1,228 @@
+/*main part started*/
+.main-container{
+    height: 100%;
+    background: linear-gradient(45deg, rgb(29, 19, 17) 0%, rgb(72, 45, 42) 100%);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 100px 0;
+}
+.main-experience{
+    width: 30%;
+    margin-left: 10%;
+    padding-top:70px ;
+}
+.main-experience #experience{
+    font-size: 14px;
+}
+.main-experience-place{
+    width: 40%;
+    margin-right: 10%;
+  
+}
+.work-place{
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(88, 82, 82);
+}
+.work-place-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main-award-container{
+    height: 100%;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 150px 0;
+}
+.award-title{
+    text-align: center;
+    width: 40%;
+    margin: 0 30%;
+    padding-bottom: 30px;
+
+}
+.award-title h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.award-title p{
+    color: rgba(255, 255, 255, 0.381);
+    font-size: 12px;
+}
+.award-desc-container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: black;
+    height: 180px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+ .award{
+   color: rgba(255, 255, 255, 0.381);
+   font-size: 14px;
+   width: 80%;
+}
+.award-desc{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.portfolio-container{
+    height: 1000px;
+    background-color: #1e1e1e;
+    color: white;
+}
+.portfolio-button{
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+}
+.button-item{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    border: 1px solid rgba(255, 255, 255, 0.479);
+}
+#button-item{
+    padding: 10px 20px;
+    background-color: #FD6F00;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    border: 1px solid rgba(255, 255, 255, 0.479);
+}
+
+.card-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  
+    gap: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-images {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: black;
+  }
+  .portImg {
+    width: 100%;
+    height: 100%;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-bottom: -65px;
+  }
+  .right {
+    margin-right: -150px;
+  }
+  .portfolio-desc {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  #profile-desc{
+    width: 50%;
+  }
+  .portfolio-desc p {
+    color: rgba(255, 255, 255, 0.711);
+    padding: 5px 0;
+  }
+  .portfolio-desc h1 {
+    font-size: 35px;
+    padding: 5px 0;
+  }
+.contact-container{
+    height: 100%;
+    background-color: #1e1e1e;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    color: white;
+}
+.contact-title{
+    text-align: center;
+    padding: 30px 0;
+}
+.contact-title h1{
+    font-size: 35px;
+}
+.contact-form{
+    height: 100%;
+    width: 80%;
+    background-color: #3e1f07;
+    margin: 0 auto;
+}
+.form-title{
+        font-weight: 900;
+        font-size: 25px;
+        margin-left: 7%;
+        padding-top: 40px;
+}
+.name-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.711);
+    font-weight: 500;
+}
+.name{
+    width: 40%;
+    margin: 0 auto;
+    padding:15px 0;
+    border-bottom: 2px solid white ;
+}
+.email{
+    width: 30%;
+    margin: 0 auto;
+    padding:15px 0;
+    border-bottom: 2px solid white ;
+}
+.message{
+    width: 85%;
+    margin: 0 auto;
+    padding: 40px 0;
+    border-bottom: 2px solid white;
+    color: rgba(255, 255, 255, 0.711);
+    font-weight: 500;
+}
+.link-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+    padding: 10px 0;
+}
+.link-icon p{
+    color: rgba(255, 255, 255, 0.711);
+    font-weight: 500;
+    padding:  0 10px ;
+}
+.button-container{
+    padding: 30px 0;
+}
+.button-container button{
+    padding: 15px 40px;
+    background-color: #FD6F00;
+    border: none;
+    margin-left: 7%;
+    color: white;
+    font-size: 18px;
+}
+
+
+/*main part end*/

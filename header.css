@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Kite+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*heading started*/
+
+
+.header-container{
+    padding: 50px 0;
+    height: 100%;
+    background-color: #1E1E1E;
+}
+/*navbar started*/
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-logo-container{
+    color: #FD6F00;
+    font-size: 25px;
+    width: 10%;
+    margin: 0 auto;
+}
+.nav-item-container{
+    width: 50%;
+    margin: 0 auto;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.items a{
+    color: white;
+    text-decoration: none;
+}
+.nav-button{
+    padding: 10px 15px;
+    background-color: #FD6F00;
+}
+/*navbar end*/
+
+
+/*banner started*/
+.banner-container{
+    display: flex;
+    padding-top: 40px;
+}
+.banner-desc{
+    width: 40%;
+    margin-left:10%;
+    color: white;
+    padding-top: 140px;
+}
+#bio{
+    font-size: 12px;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.381);
+}
+.icon{
+    color: #FD6F00;
+    padding: 0 10px;
+}
+.banner-button-container{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid white;
+    padding: 5px;
+    padding-right: 30px;
+    border-radius: 30px;
+    width: fit-content;
+    margin-top: 30px;
+    background-color: rgba(81, 77, 77, 0.378);
+}
+.banner-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    background-color: #FD6F00;
+    width: fit-content;
+    border-radius: 30px;
+}
+.banner-icon{
+    height: 18px;
+    width: 18px;
+}
+.social-icon{
+    margin: 15px 0;
+}
+.social-icon a{
+    color: rgba(255, 255, 255, 0.381);
+}
+.social{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.banner-image{
+    width: 45%;
+    margin-right: 5%;
+}
+.images{
+    width: 100%;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: left 140px;
+}
+.banner-work{
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 35px;
+    transform: rotate(-4deg);
+    margin-bottom: 140px;
+}
+.banner-work h1{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+#icon{
+    color: rgba(255, 255, 255, 0.381);
+    padding: 0 14px;
+}
+.about-me{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    width: 40%;
+    margin-left: 10%;
+}
+.intro h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+.intro p{
+    color: rgba(255, 255, 255, 0.381);
+    font-size: 12px;
+}
+.rating{
+    width: 15%;
+    margin-right: 10%;
+}
+.rating h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+.icons{
+    color: #FD6F00;
+    font-size: 20px;
+}
+/*banner end*/
+
+/*heading end*/
+
